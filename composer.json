@@ -1,6 +1,6 @@
 {
 	"name" : "inanepain/crypt",
-	"description" : "Encryption Helpers.",
+	"description" : "Encryption helpers and password hashers.",
 	"type" : "library",
 	"license" : "UNLICENSE",
 	"authors" : [{
@@ -9,7 +9,7 @@
 			"role" : "Developer"
 		}
 	],
-	"homepage" : "http://inane.co.za",
+	"homepage" : "http://vaieen.local:8000/inane/crypt",
 	"readme": "README.md",
 	"support" : {
 		"email" : "peep@inane.co.za",
