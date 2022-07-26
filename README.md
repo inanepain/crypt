@@ -1,5 +1,7 @@
 # Readme: Crypt
 
+> $Id$ ($Date$)
+
 Encryption Helpers.
 
 **Contents:**
