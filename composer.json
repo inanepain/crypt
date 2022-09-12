@@ -1,42 +1,44 @@
 {
-	"name" : "inanepain/crypt",
-	"description" : "Encryption helpers and password hashers.",
-	"type" : "library",
-	"license" : "UNLICENSE",
-	"authors" : [{
-			"name" : "Philip Michael Raab",
-			"email" : "peep@inane.co.za",
-			"role" : "Developer"
-		}
-	],
-	"homepage" : "http://vaieen.local:8000/inane/crypt",
-	"readme": "README.md",
-	"support" : {
-		"email" : "peep@inane.co.za",
-		"issues" : "http://inane.co.za"
-	},
-	"keywords" : [
-		"inane",
-		"php",
-		"encrypt",
-		"decrypt",
-		"crypt"
-	],
-	"autoload" : {
-		"psr-4" : {
-			"Inane\\Crypt\\" : "src/"
-		}
-	},
-	"config": {
-        "preferred-install" : "dist",
-		"optimize-autoloader" : true,
-		"discard-changes" : true,
-		"sort-packages": true
+    "name": "inanepain/crypt",
+    "description": "Encryption helpers and password hashers.",
+    "type": "library",
+    "license": "UNLICENSE",
+    "homepage": "http://vaieen.local:3000/inane/crypt",
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "Philip Michael Raab",
+            "email": "peep@inane.co.za",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "peep@inane.co.za",
+        "issues": "http://vaieen.local:3000/iane"
     },
-	"require" : {
-		"php" : ">=8.1",
-		"inanepain/stdlib": ">=0.1.1 || dev-develop || dev-master"
-	},
-	"require-dev": {
+    "keywords": [
+        "inane",
+        "crypt",
+        "encrypt",
+        "decrypt"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Inane\\Crypt\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "discard-changes": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1",
+        "inanepain/stdlib": ">=0.1.1 || dev-master"
+    },
+    "require-dev": {
+        "inanepain/stdlib": "dev-develop"
     }
 }
