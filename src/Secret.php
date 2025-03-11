@@ -116,8 +116,7 @@ class Secret {
      * @return string encoded text
      */
     public function encode(string $encryptedText): string {
-        $encryptedText = base64_encode($encryptedText);
-        return str_replace(static::$dirty, static::$clean, $encryptedText);
+        return str_replace(static::$dirty, static::$clean, base64_encode($encryptedText));
     }
 
     /**
@@ -139,9 +138,7 @@ class Secret {
      * @return string encrypted and encoded text
      */
     public function encryptEncode(string $plainText): string {
-        $encryptedText = $this->encrypt($plainText);
-        $encryptedText = base64_encode($encryptedText);
-        return str_replace(static::$dirty, static::$clean, $encryptedText);
+        return $this->encode($this->encrypt($plainText));
     }
 
     /**
@@ -152,7 +149,6 @@ class Secret {
      * @return string plain text
      */
     public function decryptDecode(string $encryptedEncodedText): string {
-        $encodedText = base64_decode(str_replace(static::$clean, static::$dirty, $encryptedEncodedText));
-        return $this->decrypt($encodedText);
+        return $this->decrypt($this->decode($encryptedEncodedText));
     }
 }
