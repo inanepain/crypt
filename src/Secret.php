@@ -1,18 +1,25 @@
 <?php
 
 /**
- * Inane: Stdlib
+ * Inane: Crypt
  *
- * Inane Crypt
+ * Encryption helpers and password hashers.
  *
- * PHP version 8.1
+ * $Id$
+ * $Date$
  *
- * @package Inane\Stdlib
- * @author Philip Michael Raab<peep@inane.co.za>
+ * PHP version 8.4
+ *
+ * @author Philip Michael Raab<philip@cathedral.co.za>
+ * @package inanepain\crypt
+ * @category crypt
  *
  * @license UNLICENSE
- * @license https://github.com/inanepain/event/raw/develop/UNLICENSE UNLICENSE
+ * @license https://unlicense.org/UNLICENSE UNLICENSE
+ *
+ * _version_ $version
  */
+
 declare(strict_types=1);
 
 namespace Inane\Crypt;
@@ -39,8 +46,6 @@ use const null;
  * NOTE: Not all cipher methods are supported.
  *
  * @version 1.0.0
- *
- * @package Inane\Crypt
  */
 class Secret {
     /**
