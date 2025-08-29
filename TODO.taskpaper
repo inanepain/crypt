@@ -1,2 +1,2 @@
-inanepain\crypt:
-  - todo
+inanepain/crypt:
+  Encryption helpers and password hashers.
