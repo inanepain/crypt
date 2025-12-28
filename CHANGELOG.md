@@ -1,3 +1,0 @@
-# Changelog: Crypt
-
-> $Id$ ($Date$)
