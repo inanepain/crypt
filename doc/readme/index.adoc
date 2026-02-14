@@ -1,23 +1,43 @@
-= Readme: Crypt
+= inanepain/crypt image:./icon.png[title=inanepain/crypt,25]
+:author: Philip Michael Raab
+:email: <philip@cathedral.co.za>
+:description: Encryption helpers and password hashers.
+:keywords: inanepain, library, crypt, encrypt, decrypt
+:homepage: https://github.com/inanepain/crypt
+:revnumber: 0.1.0
+:revdate: 2026-xx-xx
+:copyright: Unlicense
+:experimental:
+:hide-uri-scheme:
+:icons: font
+:source-highlighter: highlight.js
+:toc: left
+:sectanchors:
+:idprefix: topic-
+:idseparator: -
+:pkg-vendor: inanepain
+:pkg-name: crypt
+:pkg-id: {pkg-vendor}/{pkg-name}
 
-____
+== image:./icon.png[title={pkg-id},25] {pkg-id}
 
-$Id$ ($Date$)
+{description}
 
-____
+:sectnums:
 
-Encryption Helpers.
+<<<
 
-*Contents:*
+include::./part/install.adoc[leveloffset=+1]
 
-* Secret
+<<<
 
-== Install
+== Crypt
 
-`composer require inanepain/crypt`
+This is meant as more of an introduction to the classes found in the `Inane\Crypt` namespace and not an in-depth guide.
 
-== Usage
+.Classes
+* <<Secret>>
 
-```php
+<<<
 
-```
+include::./part/secret.adoc[leveloffset=+1]
