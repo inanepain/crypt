@@ -8,7 +8,7 @@
  * $Id$
  * $Date$
  *
- * PHP version 8.4
+ * PHP version 8.5
  *
  * @author Philip Michael Raab<philip@cathedral.co.za>
  * @package inanepain\crypt
@@ -36,6 +36,7 @@ use function openssl_get_cipher_methods;
 use function str_replace;
 use function strlen;
 use function substr;
+
 use const null;
 
 /**
