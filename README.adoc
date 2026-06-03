@@ -1,4 +1,5 @@
 = inanepain/crypt image:./icon.png[title=inanepain/crypt,25]
+// tag::tagConfig[]
 :author: Philip Michael Raab
 :email: <philip@cathedral.co.za>
 :description: Encryption helpers and password hashers.
@@ -18,6 +19,7 @@
 :pkg-vendor: inanepain
 :pkg-name: crypt
 :pkg-id: {pkg-vendor}/{pkg-name}
+// end::tagConfig[]
 
 == image:./icon.png[title={pkg-id},25] {pkg-id}
 
