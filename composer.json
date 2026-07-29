@@ -27,6 +27,11 @@
             "Inane\\Crypt\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Inane\\Crypt\\Tests\\": "tests/"
+        }
+    },
     "config": {
         "preferred-install": "dist",
         "optimize-autoloader": true,
