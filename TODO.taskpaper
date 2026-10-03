@@ -1,2 +1,3 @@
 inanepain/crypt:
-  Encryption helpers and password hashers.
+	Encryption helpers and password hashers.
+	- git-attributes
